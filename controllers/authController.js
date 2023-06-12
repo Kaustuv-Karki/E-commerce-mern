@@ -99,6 +99,7 @@ export const loginController = async (req, res) => {
                 name: user.name,
                 email: user.email,
                 address: user.address,
+                phone: user.phone,
             },
             token,
         });
@@ -110,4 +111,10 @@ export const loginController = async (req, res) => {
             error,
         });
     }
+};
+
+//test controller
+
+export const testController = async (req, res) => {
+    res.send({ message: "This is correct" });
 };

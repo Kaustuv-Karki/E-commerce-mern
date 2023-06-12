@@ -1,9 +1,12 @@
+import Layout from "./components/Layout/Layout.jsx";
 import "./App.css";
 
 function App() {
     return (
         <>
-            <h1>Hello World</h1>
+            <Layout>
+                <h1>Ecommerce app</h1>
+            </Layout>
         </>
     );
 }

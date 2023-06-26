@@ -45,3 +45,92 @@ font-family: 'Playfair', serif; 400 500 600
 .navbar-brand svg{
   margin-right: 1rem;
 }
+
+
+
+/* footer */
+
+.footer {
+  box-sizing: border-box;
+  color: white !important;
+  padding: 1.5rem;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 58%, rgba(45, 54, 55, 1) 100%);
+}
+
+.footer a{
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+  font-size: 1.3rem;
+  transition: 100ms ease-in-out;
+} 
+
+
+/* Page not Found css */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.pnf-title{
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: 400;
+}
+
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 1rem 1.4rem;
+  margin-top: 1rem;
+}
+
+.pnf-btn:hover{
+  color: white;
+  background-color: black;
+  transition: 300ms ease-in;
+}
+
+
+/* contact us */
+
+.contactus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.contactus h1{
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: 'Playfair', serif;
+}
+
+
+.contactus p{
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding-top: 5px;
+  /* width: 50%; */
+}
+
+
+.aboutimage {
+  width: 30rem;
+}

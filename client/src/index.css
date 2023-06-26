@@ -134,3 +134,14 @@ font-family: 'Playfair', serif; 400 500 600
 .aboutimage {
   width: 30rem;
 }
+
+
+
+/* Regiseter Page */
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}

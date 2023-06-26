@@ -4,7 +4,7 @@ import image from "../assets/About.jpg";
 
 const About = () => {
     return (
-        <Layout>
+        <Layout title="About Us">
             <div className="contactus" style={{ padding: "5rem" }}>
                 <h1 className="bg-dark text-white p-2">ABOUT US</h1>
                 <img className="aboutimage" src={image} alt="about" />

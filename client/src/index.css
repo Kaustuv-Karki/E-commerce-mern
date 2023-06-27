@@ -145,3 +145,12 @@ font-family: 'Playfair', serif; 400 500 600
   height: 70vh;
   flex-direction: column;
 }
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}

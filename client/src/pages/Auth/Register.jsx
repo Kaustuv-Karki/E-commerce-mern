@@ -77,7 +77,7 @@ const Register = () => {
                                 setPhone(e.target.value);
                             }}
                             className="form-control"
-                            id="exampleInputName"
+                            id="exampleInputNumber"
                             placeholder="Phone Number"
                             required
                         />
